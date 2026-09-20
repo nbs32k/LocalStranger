@@ -1,0 +1,16 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="Release" />
+    <Platform Name="amd64" />
+  </Configurations>
+  <Project Path="lsapi/lsapi.vcxproj" Id="d7b39d6f-8542-4188-87ca-fd40fb72a6cf">
+    <Platform Project="x64" />
+  </Project>
+  <Project Path="lselevate/lselevate.vcxproj" Id="36c06386-a9c7-44fc-b262-2a089100f6ca">
+    <Platform Project="x64" />
+  </Project>
+  <Project Path="lsmapper/lsmapper.vcxproj" Id="14c10e8a-9441-4fad-a4bb-936317e89ff6">
+    <BuildDependency Project="lsapi/lsapi.vcxproj" />
+    <Platform Project="x64" />
+  </Project>
+</Solution>
